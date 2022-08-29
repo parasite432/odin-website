@@ -1,0 +1,42 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+    
+}
+
+/* Header */
+
+.header {
+
+    background-color: #1f2937;
+    display: flex;
+    display: row;
+    justify-content: space-around;
+    margin: -10px;
+    margin-bottom: 10px;
+
+}
+
+.header .logo {
+    
+color: #F9FAF8 ;
+font-size: 24px;
+display: flex;
+align-items: center;
+font-weight: bold;
+
+
+}
+
+.header ul {
+
+font-size: 18px;
+color: #E5E7EB;
+list-style-type: none;
+display: flex;
+gap: 20px;
+
+}
+
