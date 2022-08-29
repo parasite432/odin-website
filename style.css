@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto";
+    margin: -10px;
     
 }
 
@@ -14,8 +15,8 @@ body {
     display: flex;
     display: row;
     justify-content: space-around;
-    margin: -10px;
-    margin-bottom: 10px;
+    padding: 5px
+ 
 
 }
 
@@ -40,3 +41,40 @@ gap: 20px;
 
 }
 
+/*hero*/
+
+.hero {
+
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+    background-color: #1f2937 ;
+    color: #E5E7EB;
+    font-size: 18px;
+    justify-content: space-around;
+    align-content:  center;
+    padding: 90px;
+  
+   
+}
+
+.hero .hero-main-text{
+
+    color: #F9FAF8 ;
+    font-size: 48px;
+    font-weight: bolder;
+    flex-wrap: wrap;
+
+
+}
+
+.hero button {
+
+background-color: #3882F6;
+color: #E5E7EB;
+border-radius: 5px;
+text-decoration: none;
+border: none;
+padding:5px;
+
+}
